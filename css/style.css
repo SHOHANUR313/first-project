@@ -1,0 +1,38 @@
+/*==============common css start=================*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*==============common css end=================*/
+
+/*==============nav css start=================*/
+nav{
+    background: red;
+}
+.container{
+    background: #7ef395;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .main_center .logo img{
+    width: 100px;
+}
+
+nav .container .main ul{
+    display: flex;
+    column-gap: 35px;
+}
